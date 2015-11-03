@@ -12,7 +12,7 @@ public class Gun extends Subsystem {
     	this.t1=t1;
     	this.t2=t2;
     }
-    public void charge(double speed){
+    public void shoot(double speed){
     	t1.set(speed);
     	t2.set(-speed);
     }
